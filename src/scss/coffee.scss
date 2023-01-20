@@ -8,14 +8,14 @@
 .main{
     display: flex;
     flex-direction: column;
-    max-width: 70vw;
+    max-width: 62vw;
     align-items: center;
     margin: auto;
     &__intro{
         display: flex;
         flex-direction: column;
         width: 100%;
-        min-height: 30vh;
+        min-height: 35vh;
         justify-content: center;
         flex-wrap: wrap;
         margin: auto;
@@ -26,15 +26,16 @@
             font-weight: 300;
             font-family: "Roboto Condensed";
             margin-bottom: -40px;
-            opacity: 0.502;
+            padding-top: 50px;
+            padding-bottom: 30px;
             // margin-top: -20px;
             h1 {
                 font-weight: 300;
             }
         }
         &__text2{
-            font-size: 20px;
-
+            font-size: 16px;
+            line-height: 1.8rem;
             color: #000000;
             font-weight: 300;
             font-family: "Roboto Condensed";
