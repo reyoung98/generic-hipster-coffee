@@ -35,9 +35,10 @@ h1 {
 
       @media screen and (max-width: 768px) {
           width: 100%;
+          padding: 1rem 2rem;
       }
 
-      #specialties {
+      #specialties, #whitewine {
           padding-top: 1rem;
       }
 
