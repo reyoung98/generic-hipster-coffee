@@ -35,7 +35,10 @@ html {
             font-family: "Roboto Condensed";
             margin-bottom: -40px;
             opacity: 0.502;
-            margin-top: -20px;
+            // margin-top: -20px;
+            h1 {
+                font-weight: 300;
+            }
         }
         &__text2{
             font-size: 20px;
@@ -62,22 +65,24 @@ html {
         min-height: 1600px;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin-bottom: 4rem;
         &__cards{
             display: flex;
             flex-direction: column;
             width: 48%;
-            min-height: 780px;
-            align-items: space-between;
+            // min-height: 780px;
+            // align-items: stretch;
             margin-top: 20px;
             padding-bottom: 20px;
             &__name{
                 min-height: 10%;
-                background-color: lightgray;
+                background-color: #eceff4;
                 font-size: 28px;
                 letter-spacing: 2px;
                 color: #000000;
                 font-weight: 300;
                 font-family: "Roboto Condensed";
+                padding: 1rem;
             }
             &__pic{
                 width: 100%;
@@ -91,7 +96,7 @@ html {
                 display: flex;
                 flex-direction: column;
                 padding-bottom: 10px;
-                background-color: lightgrey;
+                background-color: #eceff4;
                 flex-wrap: wrap;
                 padding-left: 10px;
                 min-height: 26%;
@@ -117,9 +122,9 @@ font-family: "Roboto Condensed";
         .main{
             &__photos{
                 flex-direction: column;
-                min-height: 2000px;
+                // min-height: 2000px;
                 &__cards{
-                    width: 80%;
+                    width: 100%;
                     
                 }
             }
