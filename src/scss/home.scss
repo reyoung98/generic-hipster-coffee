@@ -1,0 +1,73 @@
+// Just pasting set rule 
+
+
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: "Roboto Condensed", sans-serif;
+ }
+
+/* Fortmatting the titles and other */
+
+.main {
+  margin-left: 15%;
+  margin-right: 10%;
+  justify-content: space-around;
+ 
+  
+}
+
+h1 {
+  
+  font-size: 30px;
+  text-align: left;
+  font-weight: 300;
+  
+  
+  }
+
+  h2, h3 {
+    font-size: 24px;
+    font-weight: 300;
+        
+    }
+
+ 
+
+
+  img {
+    height: 600px;
+       
+        
+  }
+  
+  .openhr {
+    display: flex;
+    margin-right: 620px;
+    align-items: left;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;  
+    
+    @media (max-width: 760px) {
+      flex-direction: column;
+      
+    }
+  }
+  
+
+  .map {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+  }
