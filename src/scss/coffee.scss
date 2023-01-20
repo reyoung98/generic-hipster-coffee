@@ -8,9 +8,9 @@
 .main{
     display: flex;
     flex-direction: column;
-    max-width: 62vw;
+    max-width: 1000px;
     align-items: center;
-    margin: auto;
+    margin: 0 auto;
     &__intro{
         display: flex;
         flex-direction: column;
@@ -111,8 +111,10 @@ font-weight: 300;
 font-family: "Roboto Condensed";
     }
 
-    @media screen and (max-width: 800px){
+    @media screen and (max-width: 768px){
         .main{
+            padding-left: 3rem;
+            padding-right: 3rem;
             &__photos{
                 flex-direction: column;
                 // min-height: 2000px;
@@ -121,5 +123,11 @@ font-family: "Roboto Condensed";
                     
                 }
             }
+        }
+    }
+    @media screen and (min-width: 768px) and (max-width: 1000px){
+        .main{
+            padding-left: 3rem;
+            padding-right: 3rem;
         }
     }
