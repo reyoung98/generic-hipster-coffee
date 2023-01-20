@@ -1,20 +1,8 @@
-// Just pasting set rule
-
-html {
-  box-sizing: border-box;
+#home {
+  .home-nav a.home-link {
+    color: #000;
+  }
 }
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-html {
-  font-family: "Roboto Condensed", sans-serif;
-}
-
-/* Fortmatting the titles and other */
 
 .main {
   margin-left: 15%;

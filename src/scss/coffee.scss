@@ -1,17 +1,9 @@
-html {
-
-    box-sizing: border-box;
+ #coffee {
+    .coffee-nav a.coffee-link {
+        color: #000;
     }
-    
-    *,
-    
-    *:before,
-    
-    *:after {
-    
-    box-sizing: inherit;
-    
-    }    
+ }
+ 
 
 .main{
     display: flex;
