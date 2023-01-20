@@ -1,0 +1,34 @@
+$bg-dark: #343a40;
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 2rem 2rem;
+    margin-top: -2rem;
+    background-color: $bg-dark;
+
+    a {
+        color: #3792cb;
+    }
+    .footer-links a {
+        padding: 0 2rem;
+
+        @media screen and (max-width: 768px) {
+            padding: 0 1rem;
+        }
+    }
+
+    .footer-info {
+        text-align: center;
+        color: white;
+        padding: 2rem 0;
+
+        h3 {
+            text-transform: uppercase;
+            letter-spacing: .15rem;
+        }
+    }
+}
+
