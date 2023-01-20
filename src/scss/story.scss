@@ -1,4 +1,5 @@
 #story {
+    
     h1 {
         text-transform: uppercase;
         font-weight: 300;
@@ -15,9 +16,10 @@
             line-height: 2rem;
         }
 
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1000px) {
             padding: 3rem;
         }
+       
     }
 
     #team-photos {
@@ -29,6 +31,9 @@
         @media screen and (max-width: 768px) {
             flex-direction: column;
             align-items: center;
+        }
+        @media screen and (max-width: 1000px) {
+            padding: 3rem;
         }
 
         .team-member {
